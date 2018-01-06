@@ -1,0 +1,33 @@
+#cuerpo{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    font-size: 1.4rem;
+    background-color: #CEECF5;
+    padding-top: 50px;
+}
+
+
+h2{
+    text-align: center;
+}
+
+#container{
+    width: 40%;
+    margin: 0 auto 0 auto;
+}
+
+#perfil{
+    background-color: #F2F2F2;
+    min-height: 300px;
+    border-radius: 10%;
+    margin-top: 20px;
+    padding: 60px;
+    font-size: 20px;
+}
+.datos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0 5px 0;
+}

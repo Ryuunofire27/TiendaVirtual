@@ -1,0 +1,13 @@
+<header>
+	<h1>Earth Virtual Shop</h1>
+	<nav>
+            <c:if test="${id==null}">
+		<a href="/TiendaVirtual/usuario/registro/">Registro</a>
+		<a href="/TiendaVirtual/usuario/login/">Login</a>
+            </c:if>
+            <c:if test="${id!=null}">
+                <a href="/TiendaVirtual/usuario/perfil/">Perfil</a>
+                <a href="/TiendaVirtual/usuario/Logout">Logout</a>
+            </c:if>
+	</nav>
+</header>

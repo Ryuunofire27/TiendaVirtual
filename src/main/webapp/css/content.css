@@ -1,0 +1,14 @@
+#container{
+	width: 70%;
+	margin: auto;
+}
+
+.items-container{
+	width: 90%;
+	margin: auto;
+}
+
+.item{
+	width: 33,3%;
+	float: left;
+}

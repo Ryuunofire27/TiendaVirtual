@@ -1,0 +1,5 @@
+<c:if test="${admi==null}">
+    <script>
+        window.location="/TiendaVirtual/";
+    </script>
+</c:if>
